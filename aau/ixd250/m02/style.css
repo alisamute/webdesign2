@@ -1,0 +1,181 @@
+body {
+	background-color: #1E1E1E;
+	line-height: 1.5em;
+	margin: 0;
+	font-size: 65%;
+}
+header {
+	
+    color: #000000;
+    font-family: "Judson", serif;
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 89px 0px 2px 1px;
+	margin-top: 40px;
+	height: 100px;
+	background-color: #ffffff;
+	display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+header > h1 {
+	margin-top: 40px;
+	font-weight: 300;
+	display: inline-block;
+}
+
+.flex {
+	display: flex;
+}
+
+.container {
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #000000;
+}
+.card{
+	background-color: #000000;
+	padding: 2em;
+	border: 1px solid #d3a771;
+	overflow: hidden;
+	position: relative;
+
+}
+.card.soft {
+	
+	
+}
+
+.hidden {
+	display: none;
+}
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+nav {
+	font-size: 1.6em;
+	margin-top: 25px;
+	margin-right: 10%;
+}
+nav ul {
+	list-style: none;
+	padding-left: 0;
+}
+nav > ul a,
+nav > ul a:visited,
+nav > ul a:active {
+	padding: 7px 20px;
+	color: #777;
+	text-decoration: none;
+}
+nav > ul a:hover {
+	border-bottom: 2px solid;
+}
+.media-image {
+	max-width: 100%;
+	vertical-align: middle;
+}
+main {
+	padding: 0 30px;
+	margin-top: 40px;
+}
+main:last-child {
+	margin-top: 0;
+}
+section {
+	width: 90%;
+	margin-top: 0 auto;
+}
+
+article:first-child {
+	margin-top: 0;
+}
+article h2 {
+	margin: 0 0 20px;
+	font-size: 2.4em;
+	color: #333;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+article p {
+	margin: 0 0 20px;
+	font-size: 1.6em;
+	list-style: 1.5em;
+}
+aside {
+	height: 450px;
+	background-color: #333;
+	color: #ccc;
+	margin: 0;
+	border-radius: 0.5em;
+}
+aside h2 {
+	margin: 20px 0 0 20px;
+	font-size: 2.2em;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+aside p {
+	margin: 20px;
+	font-size: 1.6em;
+	font-style: italic;
+	list-style: 1.5em;
+}
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #464646;
+	color: #dad8d8;
+	margin-top: 20px;
+}
+footer p{
+	font-size: 1.2em;
+	color: #bbbbbb;
+	padding: 20px 0 0 3%;
+}
+@media only screen and (min-wdith:768px) and (max-wdith:1023px) {
+
+}
+@media only screen and (max-wdith: 767px) {
+	
+}
+
+.name {
+    color: aliceblue;
+    font-family: "inter", serif;
+    font-weight: 400;
+    font-style: semibold;
+    font-size: large; 
+    display:flex;
+    text-align:left;
+    padding: 27px 0px 17px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.description {
+    color: #ABABAB;
+    font-family: "inter", serif;
+    font-weight: 400;
+    font-style: semibold;
+    font-size: large; 
+    display:flex;
+    text-align:left;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 15px 0px;
+	line-height: 1.6;
+}
+
+ h2{
+	color: whitesmoke;
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34px;
+    padding: 30px 0px 10px 0px;
+    display: flex;
+    text-align: left;
+ }
