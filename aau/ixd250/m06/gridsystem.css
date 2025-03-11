@@ -1,0 +1,40 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5em;
+    padding: 5em;
+}
+
+.column {
+    flex: 1;
+    max-width: 48%;
+}
+
+@media (max-width: 550px) {
+    .row {
+        flex-direction: column;
+        gap: 1em;
+    }
+    .column {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 0px) {
+    .gap.xs.large { gap: 2em; }
+    .gap.xs.medium { gap: 1em; }
+    .gap.xs.small { gap: 0.5em; }
+}
+
+@media (min-width: 380px) {
+    .gap.sm.large { gap: 2em; }
+    .gap.sm.medium { gap: 1em; }
+    .gap.sm.small { gap: 0.5em; }
+}
+
+@media (min-width: 550px) {
+    .gap.md.large { gap: 2em; }
+    .gap.md.medium { gap: 1em; }
+    .gap.md.small { gap: 0.5em; }
+}
